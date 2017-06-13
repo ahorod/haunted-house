@@ -1,0 +1,10 @@
+{ "characters": [{
+    "name": "Sarah",
+    "description": "a young, curious girl",
+    "id": "1"
+    }, {
+    "name": "Tom",
+    "description": "adventurous boy",
+    "id": "2"
+  }]
+}

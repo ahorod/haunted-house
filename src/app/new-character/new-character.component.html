@@ -1,0 +1,21 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Character</h3>
+  </div>
+  <div class="panel-body">
+  <div>
+    <div>
+      <label>Character Name:</label>
+      <br>
+      <input #newName>
+    </div>
+
+    <div>
+      <label>Character Description:</label>
+      <br>
+      <input #newDescription>
+    </div>
+    <button (click)="submitForm(newName.value, newDescription.value); newName.value=''; newDescription.value=''">Save</button>
+  </div>
+  </div>
+</div>

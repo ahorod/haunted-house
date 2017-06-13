@@ -1,0 +1,9 @@
+<h3>
+  Welcome to Our Haunted House!
+</h3>
+<br>
+
+<h4>Characters:</h4>
+<div *ngFor="let character of characters | async" (click)="goToDetailPage(character)">
+  <h3>{{character.name}} <em>-{{character.description}}</em></h3>
+</div>
