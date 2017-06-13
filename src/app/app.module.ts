@@ -10,6 +10,7 @@ import { CharacterDetailComponent } from './character-detail/character-detail.co
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { NewCharacterComponent } from './new-character/new-character.component';
+import { ChoiceOneComponent } from './choice-one/choice-one.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +24,8 @@ export const firebaseConfig = {
     AppComponent,
     HomeComponent,
     CharacterDetailComponent,
-    NewCharacterComponent
+    NewCharacterComponent,
+    ChoiceOneComponent
   ],
   imports: [
     BrowserModule,
